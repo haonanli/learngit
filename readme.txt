@@ -1,2 +1,2 @@
-Git is a version control system.
-Git is free software.
+xpaht_spyder 使用xpath,配合phantomJS|selenium完成网易新闻动态版块的爬取工作
+connect_sql_file主要使用python连接mysql数据库,并完成插入|删除|查询等操作
