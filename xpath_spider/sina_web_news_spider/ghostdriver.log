@@ -1,0 +1,354 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2018-05-02T12:58:39.906Z] GhostDriver - Main - running on port 49727
+[INFO  - 2018-05-02T12:58:41.285Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2018-05-02T12:58:41.285Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.customHeaders:  - {}
+[INFO  - 2018-05-02T12:58:41.285Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36","phantomjs.page.settings.loadImages":false}
+[INFO  - 2018-05-02T12:58:41.285Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 89c16d20-4e08-11e8-ba71-c1e61d2ae7fe
+[ERROR - 2018-05-02T12:59:10.105Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T12:59:10.105Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T12:59:10.594Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: TypeError: 'null' is not an object (evaluating 'd.data.plan[0]')
+[ERROR - 2018-05-02T12:59:10.594Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://n.sinaimg.cn/finance/home18/hq.js:711)
+  (anonymous function) (http://news.sina.com.cn/268/2015/0112/jquery.newest.js:2)
+  (anonymous function) (http://news.sina.com.cn/268/2015/0112/jquery.newest.js:2)
+  x (http://news.sina.com.cn/268/2015/0112/jquery.newest.js:4)
+  (anonymous function) (http://news.sina.com.cn/268/2015/0112/jquery.newest.js:4)
+[ERROR - 2018-05-02T12:59:11.147Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating '$.getScript')
+[ERROR - 2018-05-02T12:59:11.147Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://n.sinaimg.cn/finance/home18/to_new.js:14)
+  (anonymous function) (http://n.sinaimg.cn/finance/home18/to_new.js:99)
+[ERROR - 2018-05-02T12:59:11.816Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this._end.bind(this)')
+[ERROR - 2018-05-02T12:59:11.816Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:25)
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:27)
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:25)
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:25)
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:25)
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:25)
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:25)
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:25)
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:25)
+  (anonymous function) (http://a1.alicdn.com/creation/html/2016/02/25/creation-342682bGnQSA6c16-1116348.html#tanxdspv=https%3a%2f%2frdstat.tanx.com%2ftrd%3ff%3d%26k%3da09e279ad7f7a12a%26p%3dmm_15890324_2192376_13112611%26pvid%3d0a671d7f00005ae9c5347978007339a2%26s%3d1000x90%26d%3d59420271%26t%3d1525269812&pid=mm_15890324_2192376_13112611&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&u=http%3A%2F%2Ffinance.sina.com.cn%2F&r=&tp=3&tsid=0a671d7f00005ae9c5347978007339a2&pid=mm_15890324_2192376_13112611:25)
+[ERROR - 2018-05-02T12:59:12.078Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265951963
+[ERROR - 2018-05-02T12:59:14.739Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265954638
+[ERROR - 2018-05-02T12:59:16.313Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265956254
+[ERROR - 2018-05-02T12:59:17.813Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265957762
+[ERROR - 2018-05-02T12:59:19.312Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265959254
+[ERROR - 2018-05-02T12:59:20.797Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265960744
+[ERROR - 2018-05-02T12:59:22.265Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265962216
+[ERROR - 2018-05-02T12:59:23.749Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265963691
+[ERROR - 2018-05-02T12:59:25.223Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265965170
+[ERROR - 2018-05-02T12:59:26.841Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265966816
+[ERROR - 2018-05-02T12:59:28.797Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T12:59:28.797Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T12:59:30.094Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265970029
+[ERROR - 2018-05-02T12:59:31.967Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265971956
+[ERROR - 2018-05-02T12:59:33.119Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265973092
+[ERROR - 2018-05-02T12:59:34.206Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265974190
+[ERROR - 2018-05-02T12:59:35.357Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265975302
+[ERROR - 2018-05-02T12:59:36.591Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265976584
+[ERROR - 2018-05-02T12:59:37.679Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265977667
+[ERROR - 2018-05-02T12:59:38.842Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265978824
+[ERROR - 2018-05-02T12:59:39.952Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265979936
+[ERROR - 2018-05-02T12:59:41.106Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265981050
+[ERROR - 2018-05-02T12:59:43.833Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265983828
+[ERROR - 2018-05-02T12:59:45.298Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265985291
+[ERROR - 2018-05-02T12:59:46.296Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265986235
+[ERROR - 2018-05-02T12:59:47.217Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265987214
+[ERROR - 2018-05-02T12:59:48.221Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265988168
+[ERROR - 2018-05-02T12:59:49.234Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265989171
+[ERROR - 2018-05-02T12:59:50.201Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265990145
+[ERROR - 2018-05-02T12:59:51.127Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265991125
+[ERROR - 2018-05-02T12:59:52.194Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265992176
+[ERROR - 2018-05-02T12:59:53.093Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265993092
+[ERROR - 2018-05-02T12:59:54.438Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T12:59:54.438Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T12:59:57.193Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525265997180
+[ERROR - 2018-05-02T13:00:01.440Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266001433
+[ERROR - 2018-05-02T13:00:03.677Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266003662
+[ERROR - 2018-05-02T13:00:05.952Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266005946
+[ERROR - 2018-05-02T13:00:08.264Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266008249
+[ERROR - 2018-05-02T13:00:10.391Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266010381
+[ERROR - 2018-05-02T13:00:12.611Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266012610
+[ERROR - 2018-05-02T13:00:14.895Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266014888
+[ERROR - 2018-05-02T13:00:17.219Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266017183
+[ERROR - 2018-05-02T13:00:19.488Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266019465
+[ERROR - 2018-05-02T13:00:23.884Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266023823
+[ERROR - 2018-05-02T13:00:24.989Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266024932
+[ERROR - 2018-05-02T13:00:25.952Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266025900
+[ERROR - 2018-05-02T13:00:26.922Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266026920
+[ERROR - 2018-05-02T13:00:28.322Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266028270
+[ERROR - 2018-05-02T13:00:29.243Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266029188
+[ERROR - 2018-05-02T13:00:30.115Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266030067
+[ERROR - 2018-05-02T13:00:30.986Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266030935
+[ERROR - 2018-05-02T13:00:31.892Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266031830
+[ERROR - 2018-05-02T13:00:32.765Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266032757
+[ERROR - 2018-05-02T13:00:33.961Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T13:00:33.961Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T13:00:34.397Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'a.length')
+[ERROR - 2018-05-02T13:00:34.398Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:3)
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:12)
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:10)
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:13)
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:23)
+[ERROR - 2018-05-02T13:00:34.402Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'a.length')
+[ERROR - 2018-05-02T13:00:34.402Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:3)
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:12)
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:10)
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:13)
+  (anonymous function) (http://static.bshare.cn/b/buttonLite.js:23)
+[ERROR - 2018-05-02T13:00:34.972Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266034918
+[ERROR - 2018-05-02T13:00:36.194Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266036123
+[ERROR - 2018-05-02T13:00:36.990Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266036937
+[ERROR - 2018-05-02T13:00:40.236Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266037841
+[ERROR - 2018-05-02T13:00:41.064Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266040998
+[ERROR - 2018-05-02T13:00:42.017Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266041963
+[ERROR - 2018-05-02T13:00:42.854Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266042787
+[ERROR - 2018-05-02T13:00:43.600Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266043594
+[ERROR - 2018-05-02T13:00:44.484Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266044482
+[ERROR - 2018-05-02T13:00:45.221Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266045217
+[ERROR - 2018-05-02T13:00:46.184Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266046182
+[ERROR - 2018-05-02T13:00:46.451Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266046448
+[ERROR - 2018-05-02T13:00:46.717Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266046712
+[ERROR - 2018-05-02T13:00:47.030Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266046977
+[ERROR - 2018-05-02T13:00:47.292Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266047291
+[ERROR - 2018-05-02T13:00:47.562Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266047559
+[ERROR - 2018-05-02T13:00:47.828Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266047825
+[ERROR - 2018-05-02T13:00:48.155Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266048101
+[ERROR - 2018-05-02T13:00:48.434Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266048419
+[ERROR - 2018-05-02T13:00:48.763Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266048705
+[ERROR - 2018-05-02T13:00:51.909Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266051884
+[ERROR - 2018-05-02T13:00:53.987Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266053923
+[ERROR - 2018-05-02T13:00:55.302Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266055241
+[ERROR - 2018-05-02T13:00:56.460Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266056398
+[ERROR - 2018-05-02T13:00:57.531Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266057525
+[ERROR - 2018-05-02T13:00:58.528Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266058512
+[ERROR - 2018-05-02T13:01:00.616Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266060557
+[ERROR - 2018-05-02T13:01:01.723Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266061720
+[ERROR - 2018-05-02T13:01:02.891Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266062883
+[ERROR - 2018-05-02T13:01:03.949Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266063897
+[ERROR - 2018-05-02T13:01:07.087Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266067021
+[ERROR - 2018-05-02T13:01:09.458Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266069454
+[ERROR - 2018-05-02T13:01:11.599Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266071579
+[ERROR - 2018-05-02T13:01:13.915Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266073905
+[ERROR - 2018-05-02T13:01:15.955Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266075934
+[ERROR - 2018-05-02T13:01:17.891Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266077873
+[ERROR - 2018-05-02T13:01:19.937Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266079874
+[ERROR - 2018-05-02T13:01:22.187Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266082174
+[ERROR - 2018-05-02T13:01:24.286Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266084273
+[ERROR - 2018-05-02T13:01:26.474Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266086461
+[ERROR - 2018-05-02T13:01:30.713Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266090671
+[ERROR - 2018-05-02T13:01:33.073Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266093014
+[ERROR - 2018-05-02T13:01:34.782Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266094720
+[ERROR - 2018-05-02T13:01:36.528Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266096469
+[ERROR - 2018-05-02T13:01:38.374Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266098356
+[ERROR - 2018-05-02T13:01:40.200Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266100195
+[ERROR - 2018-05-02T13:01:42.079Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266102078
+[ERROR - 2018-05-02T13:01:43.767Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266103760
+[ERROR - 2018-05-02T13:01:45.575Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266105569
+[ERROR - 2018-05-02T13:01:47.266Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266107206
+[ERROR - 2018-05-02T13:01:49.441Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T13:01:49.441Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T13:01:51.465Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266111450
+[ERROR - 2018-05-02T13:01:55.214Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266115208
+[ERROR - 2018-05-02T13:01:57.269Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266117261
+[ERROR - 2018-05-02T13:01:59.093Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266119091
+[ERROR - 2018-05-02T13:02:00.877Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266120869
+[ERROR - 2018-05-02T13:02:02.584Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266122533
+[ERROR - 2018-05-02T13:02:04.443Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266124440
+[ERROR - 2018-05-02T13:02:06.169Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266126154
+[ERROR - 2018-05-02T13:02:07.831Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266127816
+[ERROR - 2018-05-02T13:02:09.466Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266129417
+[ERROR - 2018-05-02T13:02:24.023Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266144009
+[ERROR - 2018-05-02T13:02:25.653Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266145585
+[ERROR - 2018-05-02T13:02:26.857Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266146797
+[ERROR - 2018-05-02T13:02:28.023Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266147952
+[ERROR - 2018-05-02T13:02:29.090Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266149036
+[ERROR - 2018-05-02T13:02:30.120Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266150106
+[ERROR - 2018-05-02T13:02:31.193Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266151173
+[ERROR - 2018-05-02T13:02:32.214Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266152210
+[ERROR - 2018-05-02T13:02:33.486Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266153476
+[ERROR - 2018-05-02T13:02:34.687Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266154626
+[ERROR - 2018-05-02T13:02:36.028Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T13:02:36.028Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T13:02:37.070Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266157053
+[ERROR - 2018-05-02T13:02:38.695Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266158680
+[ERROR - 2018-05-02T13:02:39.799Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266159786
+[ERROR - 2018-05-02T13:02:40.940Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266160935
+[ERROR - 2018-05-02T13:02:42.169Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266162162
+[ERROR - 2018-05-02T13:02:43.344Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266163325
+[ERROR - 2018-05-02T13:02:44.615Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266164600
+[ERROR - 2018-05-02T13:02:45.784Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266165756
+[ERROR - 2018-05-02T13:02:46.988Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266166978
+[ERROR - 2018-05-02T13:02:48.316Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266168284
+[ERROR - 2018-05-02T13:02:50.824Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this.init.bind(this)')
+[ERROR - 2018-05-02T13:02:50.824Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  e (http://m.leju.com/resources/scripts/gather.pc.source.js:527)
+  (anonymous function) (http://m.leju.com/resources/scripts/gather.pc.source.js:527)
+  t (http://m.leju.com/resources/scripts/gather.pc.source.js:527)
+  (anonymous function) (http://m.leju.com/resources/scripts/gather.pc.source.js:527)
+  (anonymous function) (http://m.leju.com/resources/scripts/gather.pc.source.js:527)
+  (anonymous function) (http://m.leju.com/resources/scripts/gather.pc.source.js:527)
+  (anonymous function) (http://m.leju.com/resources/scripts/gather.pc.source.js:527)
+[ERROR - 2018-05-02T13:02:51.237Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266171231
+[ERROR - 2018-05-02T13:02:53.329Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266173277
+[ERROR - 2018-05-02T13:02:54.800Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266174799
+[ERROR - 2018-05-02T13:02:56.168Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266176112
+[ERROR - 2018-05-02T13:02:57.641Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266177589
+[ERROR - 2018-05-02T13:02:58.986Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266178985
+[ERROR - 2018-05-02T13:03:00.325Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266180322
+[ERROR - 2018-05-02T13:03:01.690Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266181634
+[ERROR - 2018-05-02T13:03:03.058Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266183045
+[ERROR - 2018-05-02T13:03:04.760Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266184739
+[ERROR - 2018-05-02T13:03:07.782Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266187711
+[ERROR - 2018-05-02T13:03:08.606Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266188557
+[ERROR - 2018-05-02T13:03:09.170Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266189112
+[ERROR - 2018-05-02T13:03:09.747Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266189690
+[ERROR - 2018-05-02T13:03:10.279Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266190255
+[ERROR - 2018-05-02T13:03:10.798Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266190788
+[ERROR - 2018-05-02T13:03:11.969Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266191939
+[ERROR - 2018-05-02T13:03:12.536Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266192489
+[ERROR - 2018-05-02T13:03:13.115Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266193112
+[ERROR - 2018-05-02T13:03:13.826Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266193766
+[ERROR - 2018-05-02T13:03:14.414Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T13:03:14.415Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T13:03:15.002Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266194999
+[ERROR - 2018-05-02T13:03:15.356Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266195344
+[ERROR - 2018-05-02T13:03:15.689Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266195686
+[ERROR - 2018-05-02T13:03:16.084Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266196049
+[ERROR - 2018-05-02T13:03:16.813Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266196780
+[ERROR - 2018-05-02T13:03:17.160Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266197157
+[ERROR - 2018-05-02T13:03:17.546Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266197492
+[ERROR - 2018-05-02T13:03:17.955Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266197890
+[ERROR - 2018-05-02T13:03:18.344Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266198289
+[ERROR - 2018-05-02T13:03:18.711Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266198659
+[ERROR - 2018-05-02T13:03:19.463Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T13:03:19.464Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T13:03:20.620Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266200608
+[ERROR - 2018-05-02T13:03:22.344Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266202342
+[ERROR - 2018-05-02T13:03:24.066Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266204038
+[ERROR - 2018-05-02T13:03:25.415Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266205411
+[ERROR - 2018-05-02T13:03:26.704Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266206639
+[ERROR - 2018-05-02T13:03:28.095Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266208087
+[ERROR - 2018-05-02T13:03:29.526Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266209513
+[ERROR - 2018-05-02T13:03:31.098Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266211036
+[ERROR - 2018-05-02T13:03:32.376Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266212311
+[ERROR - 2018-05-02T13:03:33.610Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266213598
+[ERROR - 2018-05-02T13:03:35.326Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T13:03:35.326Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T13:03:36.699Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266216683
+[ERROR - 2018-05-02T13:03:38.971Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266218957
+[INFO  - 2018-05-02T13:03:40.388Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-05-02T13:03:40.609Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266220598
+[ERROR - 2018-05-02T13:03:42.434Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266222346
+[ERROR - 2018-05-02T13:03:44.136Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266224130
+[ERROR - 2018-05-02T13:03:46.299Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266226284
+[ERROR - 2018-05-02T13:03:48.155Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266228136
+[ERROR - 2018-05-02T13:03:50.064Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266230049
+[ERROR - 2018-05-02T13:03:51.753Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266231742
+[ERROR - 2018-05-02T13:03:53.393Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266233392
+[ERROR - 2018-05-02T13:03:55.959Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: ReferenceError: Can't find variable: etag_ngx_str
+[ERROR - 2018-05-02T13:03:55.960Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://beacon.sina.com.cn/h.js:1)
+[ERROR - 2018-05-02T13:03:56.810Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2018-05-02T13:03:56.810Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+
+[ERROR - 2018-05-02T13:03:57.864Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266237791
+[ERROR - 2018-05-02T13:03:59.594Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266239568
+[ERROR - 2018-05-02T13:04:01.207Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266241205
+[ERROR - 2018-05-02T13:04:02.738Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266242687
+[ERROR - 2018-05-02T13:04:04.157Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266244128
+[ERROR - 2018-05-02T13:04:05.598Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266245567
+[ERROR - 2018-05-02T13:04:07.063Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266247059
+[ERROR - 2018-05-02T13:04:08.751Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266248744
+[ERROR - 2018-05-02T13:04:10.458Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266250443
+[ERROR - 2018-05-02T13:04:12.595Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266252570
+[ERROR - 2018-05-02T13:04:14.971Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this.audio.attachEvent')
+[ERROR - 2018-05-02T13:04:14.971Z] Session [89c16d20-4e08-11e8-ba71-c1e61d2ae7fe] - page.onError - stack:
+  (anonymous function) (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  (anonymous function) (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  (anonymous function) (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  t (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  n (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  (anonymous function) (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  s (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  (anonymous function) (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  (anonymous function) (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/core.js:2)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/core.js:2)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/core.js:2)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/core.js:2)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/core.js:1)
+  (anonymous function) (http://n.sinaimg.cn/fo/home/js/pages/index.js?ver=1.0.0.2056:1)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/require.js:29)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/require.js:18)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/require.js:23)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/require.js:27)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/require.js:23)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/require.js:8)
+  v (http://n.sinaimg.cn/lib/core/require.js:7)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/require.js:23)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/require.js:17)
+  (anonymous function) (http://n.sinaimg.cn/lib/core/require.js:26)
+[ERROR - 2018-05-02T13:04:15.273Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266255207
+[ERROR - 2018-05-02T13:04:17.366Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266257353
+[ERROR - 2018-05-02T13:04:19.312Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266259260
+[ERROR - 2018-05-02T13:04:20.982Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266260961
+[ERROR - 2018-05-02T13:04:22.763Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266262708
+[ERROR - 2018-05-02T13:04:24.419Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266264408
+[ERROR - 2018-05-02T13:04:26.341Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266266278
+[ERROR - 2018-05-02T13:04:28.000Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266267985
+[ERROR - 2018-05-02T13:04:29.621Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266269592
+[ERROR - 2018-05-02T13:04:31.431Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266271361
+[ERROR - 2018-05-02T13:04:35.303Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266275288
+[ERROR - 2018-05-02T13:04:37.687Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266277686
+[ERROR - 2018-05-02T13:04:39.930Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266279911
+[ERROR - 2018-05-02T13:04:41.903Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266281881
+[ERROR - 2018-05-02T13:04:44.003Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266283946
+[ERROR - 2018-05-02T13:04:46.218Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266286151
+[ERROR - 2018-05-02T13:04:48.194Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266288139
+[ERROR - 2018-05-02T13:04:50.243Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266290178
+[ERROR - 2018-05-02T13:04:52.979Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266292914
+[ERROR - 2018-05-02T13:04:55.057Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266294996
+[ERROR - 2018-05-02T13:05:07.544Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266304990
+[ERROR - 2018-05-02T13:05:08.682Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266308628
+[ERROR - 2018-05-02T13:05:09.529Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266309472
+[ERROR - 2018-05-02T13:05:10.329Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266310316
+[ERROR - 2018-05-02T13:05:11.221Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266311171
+[ERROR - 2018-05-02T13:05:12.174Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266312153
+[ERROR - 2018-05-02T13:05:13.316Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266313310
+[ERROR - 2018-05-02T13:05:14.739Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266314734
+[ERROR - 2018-05-02T13:05:15.613Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266315592
+[ERROR - 2018-05-02T13:05:16.438Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266316376
+[ERROR - 2018-05-02T13:05:18.897Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266318879
+[ERROR - 2018-05-02T13:05:19.479Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266319466
+[ERROR - 2018-05-02T13:05:19.936Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266319875
+[ERROR - 2018-05-02T13:05:20.313Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266320270
+[ERROR - 2018-05-02T13:05:20.701Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266320650
+[ERROR - 2018-05-02T13:05:21.107Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266321044
+[ERROR - 2018-05-02T13:05:21.559Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266321547
+[ERROR - 2018-05-02T13:05:21.968Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266321909
+[ERROR - 2018-05-02T13:05:22.349Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266322300
+[ERROR - 2018-05-02T13:05:22.715Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266322699
+[ERROR - 2018-05-02T13:05:23.562Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266323515
+[ERROR - 2018-05-02T13:05:24.607Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266324541
+[ERROR - 2018-05-02T13:05:25.323Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266325264
+[ERROR - 2018-05-02T13:05:26.032Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266325971
+[ERROR - 2018-05-02T13:05:26.749Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266326693
+[ERROR - 2018-05-02T13:05:27.420Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266327398
+[ERROR - 2018-05-02T13:05:28.121Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266328065
+[ERROR - 2018-05-02T13:05:28.748Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266328742
+[ERROR - 2018-05-02T13:05:29.390Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266329388
+[ERROR - 2018-05-02T13:05:30.012Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1525266330011
+[INFO  - 2018-05-02T13:08:40.397Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

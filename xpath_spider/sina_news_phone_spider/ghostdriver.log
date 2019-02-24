@@ -1,0 +1,70 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2018-04-30T08:39:15.281Z] GhostDriver - Main - running on port 57833
+[INFO  - 2018-04-30T08:39:16.746Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2018-04-30T08:39:16.746Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.customHeaders:  - {}
+[INFO  - 2018-04-30T08:39:16.746Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36","phantomjs.page.settings.loadImages":false}
+[INFO  - 2018-04-30T08:39:16.746Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f7bd9960-4c51-11e8-93c8-21eccbd97db7
+[ERROR - 2018-04-30T08:39:23.411Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'document.getElementById("sax_script_jsonp_" + countScript).remove()')
+[ERROR - 2018-04-30T08:39:23.411Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://n.sinaimg.cn/finance/finance_home/js/sina_sax.js:406)
+  (anonymous function) (https://sax.sina.cn/wap/impress?adunit_id=PDPS000000046102,PDPS000000056528,8257D4B8940B&page_url=https%3A%2F%2Ffinance.sina.cn%2F%3Fvt%3D4%26pos%3D108&timestamp=1525077563258&rotate_count=424&callback=sax_jsonpCallback_0:1)
+[ERROR - 2018-04-30T08:39:24.287Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this._loadLazy.bind(this)')
+[ERROR - 2018-04-30T08:39:24.287Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  t (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  n (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  n (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+[ERROR - 2018-04-30T08:39:24.295Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'function(){this.endTime=(new Date).getTime(),this.endTime-this.startTime>200&&location.reload()}.bind(this)')
+[ERROR - 2018-04-30T08:39:24.295Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+  n (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+[ERROR - 2018-04-30T08:39:24.296Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'this.addHistory.startTime=(new Date).getTime()')
+[ERROR - 2018-04-30T08:39:24.296Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+[ERROR - 2018-04-30T08:39:24.903Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this._loadLazy.bind(this)')
+[ERROR - 2018-04-30T08:39:24.903Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  t (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  n (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  n (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+[ERROR - 2018-04-30T08:39:24.928Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'function(){this.endTime=(new Date).getTime(),this.endTime-this.startTime>200&&location.reload()}.bind(this)')
+[ERROR - 2018-04-30T08:39:24.929Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+  n (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+[ERROR - 2018-04-30T08:39:24.929Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'this.addHistory.startTime=(new Date).getTime()')
+[ERROR - 2018-04-30T08:39:24.929Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+[ERROR - 2018-04-30T08:39:25.222Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'this._loadLazy.bind(this)')
+[ERROR - 2018-04-30T08:39:25.222Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  t (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  n (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  n (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/project/channelv4/1.2.66/channel/static/js/channel.min.js:5)
+[ERROR - 2018-04-30T08:39:25.252Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'function(){this.endTime=(new Date).getTime(),this.endTime-this.startTime>200&&location.reload()}.bind(this)')
+[ERROR - 2018-04-30T08:39:25.252Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+  n (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
+[ERROR - 2018-04-30T08:39:25.252Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'this.addHistory.startTime=(new Date).getTime()')
+[ERROR - 2018-04-30T08:39:25.252Z] Session [f7bd9960-4c51-11e8-93c8-21eccbd97db7] - page.onError - stack:
+  (anonymous function) (https://mjs.sinaimg.cn/wap/online/public/addHistoryUrl/addHistoryUrl.min.js?v=6:1)
